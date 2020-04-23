@@ -1,3 +1,4 @@
+const NUM = 10000;
 
 const calcSum = (num) => {
   if (num === 0) {
@@ -7,14 +8,15 @@ const calcSum = (num) => {
 }
 
 function main() {
-  const num = 10000;
   let result = 0;
 
-  for (let i = 1; i <= num; i++) {
+  for (let i = 1; i <= NUM; i++) {
     result = result + calcSum(i);
   }
-  console.log(result);
+
+  console.log(`NUM: ${NUM}, result: ${result}`);
 }
+
 console.time('time');
 main();
 console.timeEnd('time');
