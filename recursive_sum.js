@@ -7,7 +7,7 @@ const calcSum = (num) => {
 }
 
 function main() {
-  const num = 10;
+  const num = 10000;
   let result = 0;
 
   for (let i = 1; i <= num; i++) {

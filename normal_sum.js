@@ -1,6 +1,3 @@
-// 与えられた数について、対象の数までの和の総和を計算する
-
-// 与えられた数値から和を計算
 const calcSum = (num) => {
   let sum = 0;
   for (let i = 1; i <= num; i++) {
@@ -10,7 +7,7 @@ const calcSum = (num) => {
 }
 
 function main() {
-  const num = 2;
+  const num = 10000;
   let result = 0;
 
   for (let i = 1; i <= num; i++) {
