@@ -8,6 +8,7 @@ $ node recursive_sum.js
 ```
 
 ## Result
+`normal_sum.js` is over 6.5x faster than `recursive_sum.js` at NUM = 10000.
 ```
 $ node recursive_sum.js
 NUM: 10000, result: 166716670000
