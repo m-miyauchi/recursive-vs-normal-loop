@@ -18,7 +18,7 @@ NUM: 10000, result: 166716670000
 time: 38.098ms
 ```
 
-`recursive_sum.js` isn't work at NUM = 100000(stack over flow).
+`recursive_sum.js` isn't work at NUM = 100000(stack overflow).
 ```
 $ node normal_sum.js
 NUM: 100000, result: 166671666700000
