@@ -18,4 +18,7 @@ function main() {
   }
   console.log(result);
 }
+
+console.time('time');
 main();
+console.timeEnd('time');
