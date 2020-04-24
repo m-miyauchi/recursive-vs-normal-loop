@@ -1,17 +1,15 @@
 #include <stdio.h>
 #include <time.h>
-const long int NUM = 10000;
+const long int NUM = 100000;
 
 long int calcSum(long int num) {
   long int sum = 0;
-
-  for (long int i = 1; i <= num; i++)
-  {
-    sum = sum + i;
+  if (num == 0) {
+    return 0;
   }
+  return (num + calcSum(num -1));
+} 
 
-  return sum;
-}
 
 int main()
 {
