@@ -24,9 +24,8 @@ int main()
     result = result + calcSum(i);
   }
 
-  
-  printf("NUM: %ld, result: %ld \n", NUM, result);
   end = clock();
+  printf("NUM: %ld, result: %ld \n", NUM, result);
   printf( "time: %lu ms", end - start);
   return 0;
 }
